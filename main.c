@@ -3,9 +3,7 @@
 #include <math.h>
 #include <string.h>
 
-/*
-
-//---EX1---
+//---EX1--- Crie um programa que leia 5 números e imprima o quadrado deles. 
 
 int main()
 {
@@ -18,7 +16,7 @@ int main()
     return 0;
 }
 
-//---EX2---
+//---EX2--- Faça um programa que imprima os números pares do intervalo de 1 a 10. 
 
 int main()
 {
@@ -30,7 +28,7 @@ int main()
     }
 }
 
-//---EX3---
+//---EX3--- Faça um programa que imprima os 100 primeiros pares. 
 
 int main()
 {
@@ -42,7 +40,7 @@ int main()
     }
 }
 
-//---EX4---
+//---EX4--- Imprima os múltiplos de 5 do intervalo entre 1 e 500.
 
 int main()
 {
@@ -53,7 +51,7 @@ int main()
     }while(i!=500);
 }
 
-//---EX5---
+//---EX5--- Faça um programa que imprima os números de 1 a 100 e a soma deles. 
 
 int main()
 {
@@ -64,7 +62,7 @@ int main()
     }
 }
 
-//---EX6---
+//---EX6--- Faça um programa que entre com 10 números e imprima a metade de cada um. 
 
 int main()
 {
@@ -78,7 +76,7 @@ int main()
     return 0;
 }
 
-//---EX7---
+//---EX7--- Altere o exercício 6 para imprimir o quadrado de cada número. 
 
 int main()
 {
@@ -91,7 +89,7 @@ int main()
     return 0;
 }
 
-//---EX8---
+//---EX8--- Entrar com 15 números e imprimir a raiz quadrada de dada um deles.
 
 int main()
 {
@@ -105,7 +103,7 @@ int main()
     return 0;
 }
 
-//---EX9---
+//---EX9--- Sabendo que uma polegada tem 2.54cm, imprima uma tabela de conversão de polegadas para centímetros para os valores de 1 a 20 polegadas. 
 
 int main()
 {
@@ -120,7 +118,8 @@ int main()
     printf("----------------------------\n");
 }
 
-//---EX10---
+//---EX10--- Sabendoque a conversãode Fahrenheit para Celsius é 𝐶 = 5 × (𝐹 − 32) 9 , faça um programa que pergunte o limite superior e o inferior e imprima uma tabela de conversão dentro deste limite.
+
 
 int main()
 {
@@ -140,7 +139,7 @@ int main()
      printf("-------------------------------\n");
 }
 
-//---EX11---
+//---EX11--- Faça um programa que leia 5 números e imprima o maior deles. 
 
 int main()
 {
@@ -159,7 +158,7 @@ int main()
     printf("Maior Valor: %d\n",vet[0]);
 }
 
-//---EX12---
+//---EX12--- Crie um programa que leia a quantidade de números que serão digitados para que se possa imprimir qual é o maior e o menor deles. 
 
 int main()
 {
@@ -181,7 +180,7 @@ int main()
     printf("Maior Numero: %d\nMenor Numero: %d\n", maior, menor);
 }
 
-//---EX13---
+//---EX13--- Entrar com 20números eimprimir a soma dos números que os quadrados sãomenores que 225. 
 
 int main()
 {
@@ -196,7 +195,7 @@ int main()
     printf("A soma dos numeros e = %d",soma);
 }
 
-//---EX14---
+//---EX14--- Entrar com um nome e imprimir quantas vezes forem o números de seus caracteres.
 
 int main()
 {
@@ -209,7 +208,7 @@ int main()
     }
 }
 
-//---EX15---
+//---EX15--- Façaum programa que recebe uma palavra e imprima conforme oexemplo: Palavra digitada: TERRA Impressão: A RA RRA ERRA TERRA
 
 main()
 {
@@ -223,7 +222,7 @@ main()
     }
 }
 
-//---EX16---
+//---EX16--- Entre com uma frase e faça a criptografia dela conforme a seguinte regra: A → X, E → Y, I → W, O → K e U → Z 
 
 main()
 {
@@ -251,7 +250,7 @@ main()
     printf("%s",frase);
 }
 
-//---EX17---
+//---EX17--- Crie um programa que receba a idade e o peso de 20 pessoas. Calcular e imprimir a média dos pesos da mesma faixa etária. As faixas etárias são: de 1 a 10 anos, de 11 a 20 anos, de 21 a 30 anos e acima de 30.
 
 int main()
 {
@@ -288,7 +287,7 @@ int main()
     printf("A media do peso de mais que 30 anos e: %d\n",soma4/d);
 }
 
-//---EX18---
+//---EX18--- Entrar com números enquanto forem positivos e imprimir quantos foram digitados. 
 
 int main()
 {
@@ -304,7 +303,7 @@ int main()
     printf("Foram digitados %d numero positivos!",contador-1);
 }
 
-//---EX19---
+//---EX19--- Ler N números e imprimir quantos foram entre100e 200. Quando o número zero for digitado o programa para. 
 
 int main()
 {
@@ -319,7 +318,7 @@ int main()
     printf("Foram digitados %d entre 100 e 200!",contador);
 }
 
-//---EX20---
+//---EX20--- Crie um programa aonde 10números serão digitados ea raiz quadrada deles será impressa. Crie um mecanismo que não permita a digitação de números negativos.
 
 int main()
 {
@@ -342,7 +341,7 @@ int main()
     return 0;
 }
 
-//---EX21---
+//---EX21--- Crie um programa aonde o usuário digita n números e seu fatorial é impresso. O programa termina quando um número menor que 1 é digitado.
 
 int main()
 {
@@ -373,7 +372,7 @@ int fatorial(int num) {
     }
 }
 
-//---EX22---
+//---EX22--- Faça um programa que verifica se um número digitado é primo. 
 
 int main()
 {
@@ -393,7 +392,7 @@ int main()
  return 0;
 }
 
-//---EX23---
+//---EX23--- Façaum programa que receba duas strings everifica se uma está dentro da outra. Se sim, retorne o ponteiro para a posição de memória inicial da contida, senão retorne NULL.
 
 int main()
 {
@@ -432,7 +431,7 @@ int main()
         printf("NULL");
 }
 
-//---EX24---
+//---EX24--- Faça uma função que receba uma string e um caractere e retorne um ponteiro para a primeira ocorrência do caractere na string ou NULL se não encontrar. 
 
 *strpos(char x,char *frase){
 	char *ptr1 = frase;
@@ -457,7 +456,7 @@ int main()
 	printf("\nA letra: (%c) esta na posicao: %d\n",letra,strpos(letra,frase));
 }
 
-//---EX25---
+//---EX25--- Sabendo que a declaração de uma função é char *strcpy(char *dest, const char *src), desenvolva esta função.
 
 char *strcpy(char* origem,char *destino){
 	int i;
@@ -476,5 +475,3 @@ int main(int argc, char *argv[]) {
 	printf("\nANTES: %s",destino);
 	printf("\nDEPOIS: %s",strcpy(origem,destino));
 }
-
-*/
